@@ -1,0 +1,16 @@
+{
+  "name": "pkg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "pkg": "pkg ./app.js --target node16-win-x64 --out-path dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "readline": "^1.3.0"
+  }
+}
