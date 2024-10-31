@@ -3,10 +3,10 @@ const fs = require("fs");
 
 const prompts = require("prompts");
 
-const readline = require("readline").createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+// const readline = require("readline").createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
 
 // readline.on("key", (key) => {
 //   console.log("key: ", key.name);
