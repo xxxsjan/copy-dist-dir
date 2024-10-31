@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "pkg": "pkg ./app.js --target node16-win-x64 --out-path dist"
+    "pkg": "pkg ./app.js --target node16-win-x64 --out-path dist",
+    "pkg:game": "pkg ./app-game.js --target node16-win-x64 -o dist/game.exe"
   },
   "keywords": [],
   "author": "",
